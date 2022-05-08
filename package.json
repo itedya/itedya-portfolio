@@ -1,26 +1,39 @@
 {
   "name": "itedya-portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.ts",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "start": "npx mix watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itedya/itedya-portfolio.git"
+  },
+  "keywords": [
+    "itedya",
+    "portfolio",
+    "web",
+    "development"
+  ],
+  "author": "itedya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itedya/itedya-portfolio/issues"
+  },
+  "homepage": "https://github.com/itedya/itedya-portfolio#readme",
   "dependencies": {
-    "@mdi/js": "^5.9.55",
-    "autoprefixer": "^9.0.0",
-    "core-js": "^3.6.5",
-    "mdi-vue": "^3.0.7",
-    "postcss": "^8.3.0",
-    "tailwindcss": "^2.1.4",
-    "vue": "^3.0.0"
+    "laravel-mix": "^6.0.43",
+    "vue": "^3.2.33"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.2",
-    "vue-cli-plugin-tailwindcss": "~0.1.1"
+    "@vue/compiler-sfc": "^3.2.33",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0",
+    "tailwindcss": "^3.0.24",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
+    "vue-loader": "^17.0.0"
   }
 }

@@ -1,30 +1,15 @@
 module.exports = {
-  purge: [],
-  darkMode: false, // or 'media' or 'class'
-  theme: {
-    backgroundColor: theme => ({
-      ...theme('colors'),
-      'yellow-primary': '#FFEB3B',
-    }),
-    screens: {
-      'sm': '640px',
-      'xs': '600px',
-      'md': '768px',
-      'lg': '1024px',
-      'xl': '1280px',
-      '2xl': '1536px',
+    content: ["./src/**/*.{scss,vue}"],
+    theme: {
+        extend: {
+            minHeight: {
+                '4/5-screen': '80vh'
+            },
+            fontFamily: {
+                sans: ["Montserrat"],
+                serif: ["Montserrat"]
+            }
+        },
     },
-    extend: {
-      width: {
-        '300px': '300px'
-      },
-      fontFamily: {
-        'serif': ['Montserrat']
-      },
-    },
-  },
-  variants: {
-    extend: {},
-  },
-  plugins: [],
+    plugins: [],
 }

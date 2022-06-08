@@ -1,0 +1,33 @@
+.technologies {
+  width: 100%;
+  height: 100%;
+
+  @apply bg-slate-900;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @apply p-3 gap-3;
+}
+
+.technologies-title {
+  @apply text-3xl text-yellow-500 font-semibold;
+}
+
+.technologies-container {
+  @apply flex flex-col container mx-auto;
+}
+
+.technology-title {
+  @apply text-xl text-slate-300 text-center;
+}
+
+.technologies-list {
+  @apply flex flex-row justify-center items-center gap-3 h-32;
+}
+
+.technology-tile {
+  @apply flex flex-col w-20 justify-between items-center h-28;
+}

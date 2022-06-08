@@ -1,5 +1,5 @@
 module.exports = {
-    content: ["./src/**/*.{scss,vue}"],
+    content: ["./src/**/*.{scss,html}"],
     theme: {
         extend: {
             minHeight: {

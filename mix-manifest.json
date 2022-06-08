@@ -1,4 +1,8 @@
 {
     "/dist/style.css": "/dist/style.css",
-    "/dist/index.html": "/dist/index.html"
+    "/dist/index.html": "/dist/index.html",
+    "/dist/images/laravel.svg": "/dist/images/laravel.svg",
+    "/dist/images/nestjs.svg": "/dist/images/nestjs.svg",
+    "/dist/images/tux.svg": "/dist/images/tux.svg",
+    "/dist/images/vue.svg": "/dist/images/vue.svg"
 }
